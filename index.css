@@ -1,0 +1,201 @@
+*,*::after,::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+:root{
+    --background-color: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(78,78,101,1) 45%);
+    --red-color: #c41616;
+    --maroon: #B56C6C;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.banner .logo a{
+    color: white;
+    transition: 0.5s;
+}
+
+.banner .logo a:hover{
+    color:var(--maroon) ;
+}
+
+.banner{
+    height: 100vh;
+    width: 100%;
+    background: var(--background-color);
+    color: white;
+}
+
+.nav-bar{
+    display: flex;
+    width: 80vw;
+    height: 4rem;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-bar .list-items{
+    display: flex;
+    list-style: none;   
+}
+
+.nav-bar .list-item {
+    padding-left: 4rem;
+}
+
+.nav-bar .list-item a{
+    text-decoration: none;
+    color: white;
+}
+
+.banner-content{
+    position: relative;
+    display: flex;
+    width: 80vw;
+    margin: 10rem auto;
+    line-height: 2.5rem;
+}
+
+.banner-content .auto-type{
+    color: var(--maroon);
+}
+
+.auto-type2{
+    color: var(--red-color);
+}
+
+.banner-content button{
+    width: 9rem;
+    color: white;
+    position: relative;
+    margin-top: 2rem;
+    height: 2.5rem;
+    border-radius: 10px;
+    border: 1px solid #B56C6C;
+    cursor: pointer;
+    z-index: 1;
+    overflow: hidden;
+    background: transparent;
+}
+
+
+.banner-content button span{
+    width: 0;
+    height: 100%;
+    position: absolute;
+    border-radius: 10px;
+    left:0;
+    top: 0;
+    background: var(--maroon);
+    z-index: -1;
+    transition: 0.5s; 
+}
+
+.banner-content button:hover span{
+    width: 100%;
+}
+
+.banner-content button:hover{
+    border: none;
+}
+
+.banner-content .left-side{
+    width: 100%;
+}
+
+.banner-content .right-side{
+    width: 100%;
+}
+
+.banner-content .right-side{
+    width: 1000px;
+    height: 300px;
+    background: linear-gradient(90deg, hsl(243, 100%, 7%, 0.65) 0%, hsl(240, 13%, 35%,0.65) 45%), url("./images/banner-img.avif");
+}
+
+section{
+    height: 100vh;
+    padding-top: 5rem;
+}
+
+
+#about-me{
+    width: 80vw;
+    margin: 0 auto;
+}
+
+
+.section-header{
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5rem
+}
+
+.section-header::after{
+    content: "";
+    height: 3px;
+    background-color: black;
+    width: 3rem;
+    margin-left:0.5rem;
+}
+
+.section-header::before{
+    content: "";
+    height: 3px;
+    background-color: black;
+    width: 3rem;
+    margin-right:0.5rem;
+}
+
+.about-me-content{
+    display: flex;
+}
+
+.about-me-content .left-side{
+    width: 70%;
+}
+
+.about-me-content .left-side img{
+    height: 20rem;
+}
+
+.about-me-content .right-side{
+    margin-top: 2rem;
+    width: 100%;
+}
+
+#about-me button{
+    width: 9rem;
+    color: white;
+    margin-top: 2rem;
+    height: 2.5rem;
+    border-radius: 10px;
+    border:  none;
+    cursor: pointer;
+    z-index: 1;
+    overflow: hidden;
+    background: var(--red-color); 
+    transition: 0.5s;   
+}
+
+#about-me button:hover{
+    background: transparent;
+    border: 1px solid var(--red-color);
+    color: black;
+}
+
+
+#skills{
+    background: var(--background-color);
+}
+
