@@ -5,22 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="index.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
     <title>Portfolio</title>
 </head>
 <body>
-    <div class="banner">
-        <nav class="nav-bar">
+    <nav class="nav-bar">
+        <div class="max-width">
             <div class="logo">
                 <h1><a href="#home">Portfolio</a></h1>
             </div>
             <ul class="list-items">
                 <li class="list-item"><a href="#home">Home</a></li>
-                <li class="list-item"><a href="#about">About</a></li>
+                <li class="list-item"><a href="#about-me">About</a></li>
                 <li class="list-item"><a href="#skills">Skills</a></li>
-                <li class="list-item"><a href="#contact">Contact</a></li>
+                <li class="list-item"><a href="#contact-me">Contact</a></li>
             </ul>
-        </nav>
+        </div>
+    </nav>
 
+    <div id="home" class="banner">
         <div class="banner-content">
             <div class="left-side">
                 <p>Hello my name is</p>
@@ -52,6 +55,101 @@
 
     <section id="skills">
         <h1 class="section-header">Skills</h1>
+        <div class="skills-content">
+            <div class="left-side">
+                <h3>My creative skills and experience</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi ullam delectus quidem quibusdam praesentium dolore est repellendus labore at error, officia non, excepturi, neque rem eaque ab suscipit natus aliquam tenetur. 
+                Facilis, eaque. Ad omnis, ratione, esse unde sequi nihil, hic odio nesciunt fuga quisquam aut cum molestiae praesentium aliquam.</p>
+                <button>Read More</button>
+            </div>
+            <div class="right-side">
+                <div class="skill-items">
+                    <div class="skill-item">
+                        <h3>HTML</h3>
+                        <h3>90%</h3>
+                    </div><span class="skill-percent"></span>
+
+                    <div class="skill-item">
+                        <h3>CSS</h3>
+                        <h3>70%</h3>
+                    </div><span class="skill-percent"></span>
+
+                    <div class="skill-item">
+                        <h3>JavaScript</h3>
+                        <h3>85%</h3>
+                    </div><span class="skill-percent"></span>
+
+                    <div class="skill-item">
+                        <h3>React</h3>
+                        <h3>80%</h3>
+                    </div><span class="skill-percent"></span>
+
+                    <div class="skill-item">
+                        <h3>MySQL</h3>
+                        <h3>90%</h3>
+                    </div><span class="skill-percent"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact-me">
+        <h1 class="section-header">Contact Me</h1>
+        <div class="contact-content">
+            <div class="left-side">
+                <h3>Get in Touch</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                     Rem quae doloremque earum assumenda numquam alias vel minima aut incidunt tempore.
+                </p>
+                <div class="left-side-contact-container">
+                    <div class="left-side-contact">
+                        <i class="fab fa-facebook"></i>
+                        <div class="info">
+                            <h4>Name</h4>
+                            <h4>Mark Ajala</h4>
+                        </div>
+                    </div>
+                    <div class="left-side-contact">
+                        <i class="fas fa-sort-down"></i>
+                        <div class="info">
+                            <h4>Address</h4>
+                            <h4>Abuja,Nigeria</h4>
+                        </div>
+                    </div>
+                    <div class="left-side-contact">
+                        <i class="fas fa-sort-down"></i>
+                        <div class="info">
+                            <h4>Email</h4>
+                            <h4>ajalamark@yahoo.com</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="right-side">
+            <h3>Message Me</h3>
+            <form action="#">
+                <div class="fields">
+                    <div class="field name">
+                        <input type="text" placeholder="Name" required>
+                    </div>
+                    <div class="field email">
+                        <input type="email" placeholder="Email" required>
+                    </div>
+                </div>
+                <div class="field">
+                    <input type="text" placeholder="Subject" required>
+                </div>
+                <div class="field text-area">
+                    <textarea cols="30" rows="10" placeholder="Describe Project...." required></textarea>
+                </div> 
+                <button>Send Message</button>
+            </form>
+            </div>
+        </div>
+    </section>
+
+    <section id="footer">
+            <h3>Created By <span>Mark Ajala</span> | &copy;2022 All rights reserved</h3>
     </section>
 
 

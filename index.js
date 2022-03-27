@@ -12,3 +12,5 @@ var typed2 = new Typed(".auto-type2", {
     backSpeed : 150,
     loop : true 
 })
+
+
