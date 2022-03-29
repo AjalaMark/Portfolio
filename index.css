@@ -123,6 +123,18 @@ html{
     background: transparent;
 }
 
+.banner-content .social-icons{
+    display: flex;
+    flex-direction: column;
+    margin-top: 4rem;
+    padding: 0 2rem;
+}
+
+.banner-content .social-icons a{
+    font-size: 25px;
+    color: white;
+}
+
 
 .banner-content button span{
     width: 0;
@@ -200,6 +212,13 @@ section{
     margin: 0 auto;
 }
 
+#about-me h2{
+    padding-bottom: 1rem;
+}
+
+#about-me .right-side{
+    padding: 0 1rem;
+}
 
 .about-me-content{
     display: flex;
@@ -348,6 +367,7 @@ section{
 
 /*---------------------------------CONTACT-ME SECTION-------------------------------*/
 
+
 .contact-content{
     display: flex;
     width: 80vw;
@@ -459,18 +479,8 @@ section{
     color: crimson;
 }
 
-
-@media (max-width:800px){
-    .nav-bar{
-        width: 100%;
-    }
-    .banner{
-        width: 100vw;
-        margin: 0;
-    }
-}
-
 @media (max-width:900px){
+
     .menu-btn{
         display: block;
         z-index: 999;
@@ -553,5 +563,86 @@ section{
     #footer{
         padding-top: 0;
         display: flex;
+    }
+}
+
+
+@media (max-width:679px){
+    #education .section-header{
+        padding-bottom: 2rem;
+    }
+    #education .education-section{
+        padding: 0 1rem 2rem;
+    }
+    #contact-me{
+        height: 450px;
+        padding: 2rem;
+    }
+    #contact-me .left-side-contact{
+        margin-top: 0;
+    }
+    .section-header{
+        padding-bottom: 2rem;
+    }
+    section{
+        padding-top:2rem;
+    }
+
+    #about-me .right-side h2{
+        font-size: 20px;
+    }
+    #about-me .right-side p{
+        font-size: 14px;
+    }
+}
+
+
+@media (max-width:589px){
+    #about-me .section-header{
+        padding-bottom: 1rem;
+    }
+    #about-me .right-side{
+        margin: 1rem auto;
+    }
+    #about-me .right-side h2{
+        font-size: 17px;
+    }
+    #about-me .right-side p{
+        font-size: 15px;
+    }
+}
+
+@media(max-width:493px){
+
+    #about-me .right-side h2{
+        font-size: 20px;
+        padding-bottom: 0.5rem;
+    }
+    #about-me .right-side p{
+        font-size: 14px;
+    }
+    #about-me .right-side button{
+        margin-top: 0;
+        height: 40px;
+    }
+
+    .education-content .education-title{
+        font-size: 15px;
+    }
+    .education-content .education-subtitle{
+        font-size: 13px;
+    }
+    .education-content .education-calendar{
+        font-size: 12px;
+    }
+
+    #contact-me h3{
+        font-size: 15px;
+    }
+    #contact-me .left-side p{
+        font-size: 13px;
+    }
+    #contact-me .left-side-contact{
+        font-size: 13px;
     }
 }

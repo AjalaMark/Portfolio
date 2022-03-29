@@ -29,11 +29,15 @@
 
     <div id="home" class="banner">
         <div class="banner-content">
+            <div class="social-icons">
+               <a href="https://github.com/" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/markadebayoajala/" target="_blank"><i class="fa-brands fa-linkedin"></i> </a>  
+            </div>
             <div class="left-side">
                 <p>Hello my name is</p>
-                <h1>Mark Adebayo Ajala</h1>
+                <h1>Mark Ajala</h1>
                 <h2>and I'm a <span class="auto-type"></span></h2>
-                <button><span></span>HIRE ME</button>
+                <a href="#contact-me"><button><span></span>HIRE ME</button></a>
             </div>
             <div class="right-side">
             </div>
@@ -47,12 +51,12 @@
                 <img src="./images/Mark.jpg">
             </div>
             <div class="right-side">
-                <h2>I am Mark Adebayo Ajala and I am a <span class="auto-type2"></span></h2>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro in doloribus, consectetur architecto autem optio aperiam, incidunt accusantium temporibus corrupti est, deleniti laboriosam esse velit. In, 
-                    esse! Aperiam officia natus magni itaque illo
-                    exercitationem totam quidem qui iure id fugiat accusamus reiciendis quasi, maxime dolore est?
+                <h2>I am Mark Ajala and I am a <span class="auto-type2"></span></h2>
+                <p>I grew up in the city of Abuja, F.C.T (Federal Capital Territory) which is the capital of Nigeria. Throughout my life I travelled lot as my father was a diplomat.
+                I have so far lived in Russia, Germany and China, each for the span of about 3 years. I have a deep passion for software engineering, as I was always glued to my computer right from young 
+                my passion might be as a result of that.
                     </p>
-                    <button>DOWNLOAD CV</button>
+                    <a href="./images/Resume.pdf" download><button>DOWNLOAD CV</button></a>
             </div>
         </div>
     </section>
@@ -62,8 +66,10 @@
         <div class="skills-content">
             <div class="left-side">
                 <h3>My creative skills and experience</h3>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi ullam delectus quidem quibusdam praesentium dolore est repellendus labore at error, officia non, excepturi, neque rem eaque ab suscipit natus aliquam tenetur. 
-                Facilis, eaque. Ad omnis, ratione, esse unde sequi nihil, hic odio nesciunt fuga quisquam aut cum molestiae praesentium aliquam.</p>
+                <p>In the 4 years of school work I have gathered a variety of computing skills that will allow me to tackle most, if not every problem I face. 
+                    I have been privileged to learn a number of programming languages, and have proved to be competent in them through various coursework and projects 
+                    I have completed.
+                </p>
             </div>
             <div class="right-side">
                 <div class="skill-items">
@@ -83,7 +89,7 @@
                     </div><span class="skill-percent"></span>
 
                     <div class="skill-item">
-                        <h3>React</h3>
+                        <h3>Python</h3>
                         <h3>80%</h3>
                     </div><span class="skill-percent"></span>
 
@@ -172,7 +178,7 @@
                 <div class="education-data">
                     <div>
                         <h3 class="education-title">Liaoning University of Technology</h3>
-                        <span class="education-subtitle">Bachelor's Degree</span>
+                        <span class="education-subtitle">Higher Education</span>
                         <div class="education-calendar">
                             <i class="util util-calendar-alt"></i>
                             2017-2021
@@ -193,8 +199,7 @@
         <div class="contact-content">
             <div class="left-side">
                 <h3>Get in Touch</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                     Rem quae doloremque earum assumenda numquam alias vel minima aut incidunt tempore.
+                <p>Send me a message regarding any inquiry you have of me and I will be sure to answer 
                 </p>
                 <div class="left-side-contact-container">
                     <div class="left-side-contact">
@@ -222,20 +227,20 @@
             </div>
             <div class="right-side">
             <h3>Message Me</h3>
-            <form action="#">
+            <form action="https://formspree.io/f/mrgjaklp" method="POST">
                 <div class="fields">
                     <div class="field name">
-                        <input type="text" placeholder="Name" required>
+                        <input type="text" name="name" placeholder="Name" required>
                     </div>
                     <div class="field email">
-                        <input type="email" placeholder="Email" required>
+                        <input type="email" name="email" placeholder="Email" required>
                     </div>
                 </div>
                 <div class="field">
-                    <input type="text" placeholder="Subject" required>
+                    <input type="text" name="subject" placeholder="Subject" required>
                 </div>
                 <div class="field text-area">
-                    <textarea cols="30" rows="10" placeholder="Describe Project...." required></textarea>
+                    <textarea cols="30" rows="10" name="message" placeholder="Message...." required></textarea>
                 </div> 
                 <button>Send Message</button>
             </form>
