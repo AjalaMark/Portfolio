@@ -29,11 +29,11 @@ body{
     text-decoration: none;
     color: black;
     padding: 0.5rem;
+    transition: 0.5s;
 }
 
 .home a:hover{
     background-color: black;
-    transition: 0.5s;
     color: white;
 }
 
