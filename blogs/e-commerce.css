@@ -14,29 +14,28 @@ body{
 }
 
 .page-title{
-    color: rgb(48, 48, 48);
+    color: white;
     display: flex;
     justify-content: center;
     margin: 30px 0;
 }
 
-.home{
+.prev{
     font-size: 2rem;
     margin: 50px 70px;
 }
 
-.home a{
+.prev a{
     text-decoration: none;
     color: black;
-    padding: 0.5rem;
+    padding: 0.8rem;
     transition: 0.5s;
 }
 
-.home a:hover{
+.prev a:hover{
     background-color: black;
     color: white;
 }
-
 
 
 .blog-wrapper{

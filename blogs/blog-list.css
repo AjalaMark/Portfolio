@@ -1,0 +1,50 @@
+*,*::after,*::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body{
+    height: 90vh;
+    background: rgba(0,0,0,0.9) url(https://images.pexels.com/photos/1089438/pexels-photo-1089438.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    background-size: cover;
+    background-position: center;
+    color: green;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.home{
+    font-size: 2rem;
+    margin: 50px 70px;
+}
+
+.home a{
+    text-decoration: none;
+    padding: 0.5rem;
+    transition: 0.3s;
+    color: green;
+}
+
+.home a:hover{
+    background-color: green;
+    color: white;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    margin: 50px auto;
+}
+
+.list-item{
+    margin: 0 5rem;
+}
+
+.list-item a{
+    color: green;
+    text-decoration: none;
+}
